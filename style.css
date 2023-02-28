@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+body {
+
+margin: 0;
+padding: 0;
+background-color: rgb(255, 255, 255);
+
+}
+
+
+.main-header {
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:white;
+background-color: black;
+padding: 20px;
+
+}
+
+.span-header {
+
+    margin-left: 17%;
+font-size: 40px;
+
+}
+       
+.container2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+    
+    
+    }
+    
+    
+    .container2 div{
+    
+        border: 2px #cccccc00 solid;
+        padding: 15px;
+        text-align: justify;
+        margin: 30px;
+        background-color: rgba(127, 255, 212, 0);
+        
+        }
+    
+    .item-box-1 {
+    
+    
+    flex: 1;
+    order: 1;
+    
+    
+    
+    }
+    
+    
+    .item-box-2 {
+    
+    flex: 1;
+    order: 2;
+    
+    
+    
+    }
+    
+    
+    
+    
+    .item-box-3 { 
+    
+    flex: 1;
+    order: 3;
+    
+    }
+
+    
+    .item-box-4 { 
+    
+        flex: 1;
+        order: 4;
+        
+        }
+
+
+        
+    .item-box-5 { 
+    
+        flex: 1;
+        order: 5;
+        
+        }
+    
+    
+h3{
+
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+    
+    
+h4 {
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+p {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-indent: 1rem;
+
+}
+
+.nmr {
+
+text-indent: 0;
+
+}
+
+
+.album {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+
+
+}
+
+.foto-album img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.foto-album {
+
+    width: 200px;
+    height: 200px;
+    border: 7px solid #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.509);
+    transition: transform .3s;
+    border-radius: 10px;
+
+}
+
+.foto-album:hover {
+
+    transform: scale(1.3);
+    filter: contrast(130%) blur(0px);
+
+
+}
+
+footer {
+
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.ac {
+
+color: blue;
+
+}
+
+.fontes {
+
+font-family: Arial, Helvetica, sans-serif;
+word-spacing: 5px;
+
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+a:visited {
+
+color: rgb(52, 106, 255);
+
+}
+
+a:link {
+
+color: rgb(52, 106, 255);
+
+}
